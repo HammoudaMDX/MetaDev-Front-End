@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import ProSidebar from 'react-pro-sidebar';
+import { ProSidebar } from 'react-pro-sidebar';
 import {  Menu, MenuItem , SubMenu } from "react-pro-sidebar";
 import { Box, Drawer, IconButton, List, ListItem, ListItemButton, Typography ,useTheme , Divider , Button , Snackbar} from '@mui/material'
 import { tokens } from "../../theme";
