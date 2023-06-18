@@ -1,7 +1,7 @@
 import axios from 'axios'
 import queryString from 'query-string'
 
-const baseUrl = 'https://meta-dev.vercel.app/api/v1/'
+const baseUrl = 'https://meta-eta.vercel.app/api/v1/'
 const getToken = () => localStorage.getItem('token')
 
 const axiosClient = axios.create({
